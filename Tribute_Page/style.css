@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
+.jumbotron { margin: 2%;
+border: 5px solid black;  
+}
+
 body {
 	color: #666;
-	font-size: 87.5%; /* Base font size is 14px*/
-	font-family: Lucida Sans Unicode, 'Verdana';
+	font-size: 70.5%; /* Base font size is 14px*/
+	font-family: sans-serif, 'Verdana';
 	line-height: 1.5;
 	text-align: center;
 }
@@ -29,20 +33,14 @@ body {
 	font-family: Special Elite, 'Comic Sans MS';
 }
 
-.mainContent {
-	line-height: 25px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	
+h2 {
+  font-family: Special Elite, 'Comic Sans MS';
+  color: #000000;
 }
 
-.imageContent {
-	
-	border: 5px solid white;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+#image1 {
+  border: 5px solid white;
+  width: 90%;
 }
 
 .imageContent img {
@@ -51,34 +49,18 @@ body {
 	
 }
 
-.mainFooter {
-	width: 94%;
-	height: 40px;
-	float: left;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	background-color: white;
-	margin: 2% 3% 2% 3%;
+.footnote {
+  font-size: 14px;
+  font-family:'raleway', 'sans serif';
+  text-align: center;
 }
 
-.bioContent{
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 1% 3%;
-	margin: 2% 3% 2% 3%;
+.content p {
+  text-align: center;
+  padding: 1% 5%;
+  font-size: 20px;
 }
 
-.careerContent {
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 1% 3%;
-	margin: 2% 3% 2% 3%;
-}
 
 .links {
 	display: inline;
@@ -88,31 +70,7 @@ body {
   margin-top: 2%;
 }
 
-.external-link2{
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 1% 4%;
-	margin: 0% 3% 0% 0%;
-	width: 38%;
-	float: right;
-	position: relative;
-	
-}
 
-.external-link1{
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 1% 4%;
-	margin: 0% 0% 0% 3%;
-	width: 38%;
-	float: left;
-	position: relative;
-	
-}
 
 .btn {
 	background-color: white; 
@@ -138,16 +96,6 @@ body {
 	font-size: 98%;
 }
 
-.imageContent {
-	width: 98%;
-	position: relative;
-	border: 5px solid white;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin: 0 auto;
-}
-
 	.external-link2{
 	background-color: #FFF;
 	border-radius: 5px;
@@ -169,34 +117,5 @@ body {
 	width: 92%;
 	
 }
-	
-.bioContent{
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 1% 3%;
-	margin: 2% auto;
-}
-
-.careerContent {
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 1% 3%;
-	margin: 0 auto;
-}
-
-.mainFooter {
-	width: 100%;
-	height: 40px;
-	float: left;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	background-color: white;
-	margin: 2% auto;
-}
-	
+		
 	}	
