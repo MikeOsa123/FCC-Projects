@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+	color: #666;
+	font-size: 87.5%; /* Base font size is 14px*/
+	font-family: Lucida Sans Unicode, 'Verdana';
+	line-height: 1.5;
+	text-align: center;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	background-color: #A9A9A9;
+	}
+	
+.mainHeader {
+	margin-top: 2%;
+}
+
+.mainHeader h1 {
+	color: #000000;
+	font-size:;
+	
+}
+
+.underTitle {
+	font-style: italic;
+	font-family: Special Elite, 'Comic Sans MS';
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+
+.imageContent {
+	
+	border: 5px solid white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.imageContent img {
+	width: 100%;
+	border-radius: 0px;
+	
+}
+
+.mainFooter {
+	width: 94%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: white;
+	margin: 2% 3% 2% 3%;
+}
+
+.bioContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3%;
+	margin: 2% 3% 2% 3%;
+}
+
+.careerContent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3%;
+	margin: 2% 3% 2% 3%;
+}
+
+.links {
+	display: inline;
+}
+
+.external-links{
+  margin-top: 2%;
+}
+
+.external-link2{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 4%;
+	margin: 0% 3% 0% 0%;
+	width: 38%;
+	float: right;
+	position: relative;
+	
+}
+
+.external-link1{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 4%;
+	margin: 0% 0% 0% 3%;
+	width: 38%;
+	float: left;
+	position: relative;
+	
+}
+
+.btn {
+	background-color: white; 
+    color: black; 
+    border: 2px solid #666;
+	border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #666;
+    color: white;
+}	
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body {
+	width: 90%;
+	font-size: 98%;
+}
+
+.imageContent {
+	width: 98%;
+	position: relative;
+	border: 5px solid white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0 auto;
+}
+
+	.external-link2{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0% 0% 0%;
+	position: relative;
+	width: 92%;
+	
+}
+
+.external-link1{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0 auto;
+	position: relative;
+	width: 92%;
+	
+}
+	
+.bioContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3%;
+	margin: 2% auto;
+}
+
+.careerContent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3%;
+	margin: 0 auto;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: white;
+	margin: 2% auto;
+}
+	
+	}	
