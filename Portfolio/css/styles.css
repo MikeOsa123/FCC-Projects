@@ -1,3 +1,5 @@
+
+/* ====== Body style ====== */
 html,
 body {
     width: 100%;
@@ -16,6 +18,19 @@ a:hover,
 a:focus {
     color: forestgreen;
 }
+
+/* ====== Navagation style ====== */
+
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+/* ====== Home section style ====== */
+
 header {
     position: relative;
     width: 100%;
@@ -50,10 +65,21 @@ header .home .home-content-inner h2 {
     color: rgba(255,255,255,.7);
 }
 
-.navbar-default {
-    border-color: rgba(34,34,34,.05);
-    background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+/* ====== About me section style ====== */
+
+.section-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-heading p{
+	text-align: center;
+}
+
+/* ====== Portfolio style ====== */
+
+/* ====== Contact form ====== */
+.contact {
+	color: #fff;
+    background-color: #222;
 }
