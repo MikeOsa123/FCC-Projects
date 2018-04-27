@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.img_section{
+    display: inline-block;
+    width: 50%;
+    height:100%;
+    vertical-align: top;
+}
+
+.text_section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.title_page {
+    text-align: center;
+    color: #fff;
+}
+
+.section_title {
+    text-align: center;
+}
+.header_section {
+    background-color: #000;
+    width: 100%;
+}
+#header_image{
+    width: 100%;
+}
+.early_years, .timeline {
+    width: 100%;
+    background-color: #fff;
+    height:500px;
+}
+.early_years_img {
+    width: 100%;
+    height: 100%;
+}
+
+.body_work {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.body_work_img {
+    width: 100%;
+    height: 100%;
+   
+}

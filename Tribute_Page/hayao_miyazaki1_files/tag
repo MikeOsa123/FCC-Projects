@@ -1,0 +1,8 @@
+(function(w, d) {
+var p = (w._ttp = (w._ttp || {}))[53923] = [];
+var ps = (w._tts = (w._tts || {}));
+
+var s = d.createElement('script'); s.async = true;
+s.src = 'https://cdn.teads.tv/media/format/v3/teads-format.min.js';
+d.body.appendChild(s);
+})(window, document);

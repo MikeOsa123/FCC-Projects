@@ -1,0 +1,93 @@
+
+<!-- saved from url=(0093)http://pixel.mathtag.com/sync/iframe?mt_uuid=b2075984-318f-4d00-85b8-62e8a0fd194e&no_iframe=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+<script type="text/javascript">
+try {
+   /**/
+(function() {
+    try {
+	var sync_4815162342 = function() {
+this.urls = [
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=0:16&mt_cb=931601&mop_top="],
+[37, "http://atemda.com/UserMatch.ashx?bidderid=43&bidderuid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[11, "http://bh.contextweb.com/bh/rtset?do=add&pid=530739&ev=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[20, "http://dis.criteo.com/pump/match.aspx?c=2&uid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[42, "http://sync.go.sonobi.com/us.gif?nw=mediamath&nuid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[10, "http://ads.yahoo.com/pixel?id=2172018&t=2&piggyback=http%3A%2F%2Fads.yahoo.com%2Fcms%2Fv1%3Fesig%3D1~444de053567fa80a3054a1981c8febcf1176dd9d%26nwid%3D10000355603%26sigv%3D1"],
+[29, "http://delivery.swid.switchads.com/adserver/info.php?action=STORE&info=MMTH:b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[17, "http://ce.lijit.com/merge?pid=3&3pid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[39, "http://rtb-csync.smartadserver.com/redir/?partnerid=25&partneruserid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[30, "http://sync.search.spotxchange.com/partner?adv_id=6653&uid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[26, "http://ih.adscale.de/adscale-ih/tpui?tpid=39&tpuid=b2075984-318f-4d00-85b8-62e8a0fd194e&cburl=http%3A%2F%2Fcotads.adscale.de%2Fads%2Fpixel%2F1by1.png"],
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=10:16&mt_cb=236124&mop_top=37:1524066023|11:1524066023|20:1524066023|42:1524066023|10:1524066023|29:1524066023|17:1524066023|39:1524066023|30:1524066023|26:1524066023|"],
+[10025, "http://su.addthis.com/red/usync?pid=11112&puid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[10009, "http://aa.agkn.com/adscores/g.pixel?sid=9211132948&mt=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[10013, "http://d.agkn.com/pixel/2184/?sync=615&che=4041945945&uuid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[10011, "http://e.nexac.com/e/media_math_sync.xgi?na_exid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[10031, "http://beacon.krxd.net/usermatch.gif?partner=mediamath&_kdpid=8dd53e69-ae3f-4829-8f12-05cc5b57b288&mmuuid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[10017, "http://idsync.rlcdn.com/361087.gif?partner_uid=b2075984-318f-4d00-85b8-62e8a0fd194e"],
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=16:16&mt_cb=835913&check=b2075984-318f-4d00-85b8-62e8a0fd194e&mop_top=37:1524066023|11:1524066023|20:1524066023|42:1524066023|10:1524066023|29:1524066023|17:1524066023|39:1524066023|30:1524066023|26:1524066023|10025:1524066023|10009:1524066023|10013:1524066023|10011:1524066023|10031:1524066023|10017:1524066023|"]
+]
+	    this.progress = 0;
+	    var self = this;
+	    var tims = "";
+	    var errs = "";
+	    this.sync = function(i)
+	    {
+		var e = document.createElement("img");
+		var now = new Date();
+		if (e.addEventListener)
+		{
+		    e.addEventListener('load', function() {
+			var temp = new Date().getTime() - now.getTime(); tims += self.urls[i][0]+':'+temp+"|";
+		    });
+		    e.addEventListener('error', function() {
+			var temp = new Date().getTime() - now.getTime(); errs += self.urls[i][0]+':'+temp+"|";
+		    });
+		}
+		e.src = self.urls[i][1];
+	    }
+	    this.batch = function()
+	    {
+		for (var i = self.progress; i < self.urls.length; ++i)
+		{
+		    self.sync(i);
+		}
+	    }
+	    this.final = function()
+	    {
+		var e = document.createElement("img");
+		e.src = self.urls[self.urls.length-1][1]+"&final&timings="+tims+"&errors="+errs;
+	    }
+	    this.some = function(howmany)
+	    {
+		var count = 0;
+		for (var i = self.progress; i < self.urls.length && count < howmany; ++i)
+		{
+		    self.sync(i);
+		    self.progress++;
+		    count++;
+		}
+	    }
+	}
+	var s_4815162342 = new sync_4815162342();
+	s_4815162342.some(1);
+	setTimeout(function(){s_4815162342.some(2);}, 1000);
+	setTimeout(s_4815162342.batch, 3000);
+	setTimeout(s_4815162342.final, 10000);
+    }
+    catch(ex)
+    {
+	document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=syncjs&what="+encodeURIComponent(ex.message);
+    }
+})();
+
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap_iframe&what="+encodeURIComponent(ex.message);
+}
+</script>
+
+
+</body></html>

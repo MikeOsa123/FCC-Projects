@@ -1,0 +1,563 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "scmp";
+  src:url("../scmp-icons/scmp.eot?v=1");
+  src:url("../scmp-icons/scmp.eot?v=1#iefix") format("embedded-opentype"),
+    url("../scmp-icons/scmp.woff?v=1") format("woff"),
+    url("../scmp-icons/scmp.woff2?v=1") format("woff2"),
+    url("../scmp-icons/scmp.ttf?v=1") format("truetype"),
+    url("../scmp-icons/scmp.svg?v=1#scmp") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "scmp" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: hidden;
+}
+
+[class^="scmp-icon-"]:before,
+[class*=" scmp-icon-"]:before,
+.scmp-icon:before {
+  font-family: "scmp" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: hidden;
+}
+
+.wf-scmp-n4-active [class^="scmp-icon-"]:before,
+.wf-scmp-n4-active [class*=" scmp-icon-"]:before,
+.wf-scmp-n4-active [data-icon]:before {
+  visibility: visible;
+}
+
+.scmp-icon-angle-left:before {
+  content: "\68";
+}
+.scmp-icon-angle-right:before {
+  content: "\69";
+}
+.scmp-icon-facebook:before {
+  content: "\6b";
+}
+.scmp-icon-google-plus:before {
+  content: "\6d";
+}
+.scmp-icon-instagram:before {
+  content: "\6c";
+}
+.scmp-icon-linkedin:before {
+  content: "\6e";
+}
+.scmp-icon-refresh:before {
+  content: "\6f";
+}
+.scmp-icon-resize-expand:before {
+  content: "\70";
+}
+.scmp-icon-resize-down:before {
+  content: "\71";
+}
+.scmp-icon-thumbnails:before {
+  content: "\72";
+}
+.scmp-icon-list:before {
+  content: "\73";
+}
+.scmp-icon-twitter:before {
+  content: "\74";
+}
+.scmp-icon-umbrella:before {
+  content: "\75";
+}
+.scmp-icon-weibo:before {
+  content: "\76";
+}
+.scmp-icon-zoom-out:before {
+  content: "\77";
+}
+.scmp-icon-zoom-in:before {
+  content: "\78";
+}
+.scmp-icon-debate:before {
+  content: "\79";
+}
+.scmp-icon-photos:before {
+  content: "\7a";
+}
+.scmp-icon-cog-gear:before {
+  content: "\64";
+}
+.scmp-icon-credit-card:before {
+  content: "\65";
+}
+.scmp-icon-star-two:before {
+  content: "\66";
+}
+.scmp-icon-windows:before {
+  content: "\67";
+}
+.scmp-icon-audio:before {
+  content: "\41";
+}
+.scmp-icon-heart:before {
+  content: "\42";
+}
+.scmp-icon-heart-empty:before {
+  content: "\43";
+}
+.scmp-icon-video:before {
+  content: "\44";
+}
+.scmp-icon-chevron-right:before {
+  content: "\62";
+}
+.scmp-icon-chevron-left:before {
+  content: "\63";
+}
+.scmp-icon-caret-down:before {
+  content: "\61";
+}
+.scmp-icon-caret-up:before {
+  content: "\45";
+}
+.scmp-icon-home:before {
+  content: "\46";
+}
+.scmp-icon-apple:before {
+  content: "\47";
+}
+.scmp-icon-android:before {
+  content: "\48";
+}
+.scmp-icon-caret-left:before {
+  content: "\49";
+}
+.scmp-icon-caret-right:before {
+  content: "\4a";
+}
+.scmp-icon-clock:before {
+  content: "\4c";
+}
+.scmp-icon-globe-world:before {
+  content: "\4d";
+}
+.scmp-icon-circle:before {
+  content: "\4e";
+}
+.scmp-icon-circle-line:before {
+  content: "\4f";
+}
+.scmp-icon-bookmark:before {
+  content: "\52";
+}
+.scmp-icon-arrow-right:before {
+  content: "\6a";
+}
+.scmp-icon-rss:before {
+  content: "\e5";
+}
+.scmp-icon-angle-up:before {
+  content: "\54";
+}
+.scmp-icon-angle-down:before {
+  content: "\55";
+}
+.scmp-icon-arrow-left-1:before {
+  content: "\56";
+}
+.scmp-icon-windows-phone:before {
+  content: "\57";
+}
+.scmp-icon-latestnews:before {
+  content: "\58";
+}
+.scmp-icon-laptop:before {
+  content: "\59";
+}
+.scmp-icon-video-play:before {
+  content: "\5a";
+}
+.scmp-icon-info:before {
+  content: "\30";
+}
+.scmp-icon-user:before {
+  content: "\31";
+}
+.scmp-icon-tick:before {
+  content: "\32";
+}
+.scmp-icon-tempature-top:before {
+  content: "\33";
+}
+.scmp-icon-gift:before {
+  content: "\34";
+}
+.scmp-icon-email:before {
+  content: "\35";
+}
+.scmp-icon-tempature-low:before {
+  content: "\36";
+}
+.scmp-icon-tablet:before {
+  content: "\37";
+}
+.scmp-icon-cross:before {
+  content: "\38";
+}
+.scmp-icon-close:before {
+  content: "\39";
+}
+.scmp-icon-comment:before {
+  content: "\21";
+}
+.scmp-icon-search:before {
+  content: "\22";
+}
+.scmp-icon-presented-channel:before {
+  content: "\23";
+}
+.scmp-icon-plus:before {
+  content: "\24";
+}
+.scmp-icon-plus1:before {
+  content: "\25";
+}
+.scmp-icon-scmp-bubble:before {
+  content: "\26";
+}
+.scmp-icon-author-i:before {
+  content: "\27";
+}
+.scmp-icon-arrow-right1:before {
+  content: "\28";
+}
+.scmp-icon-mobile:before {
+  content: "\29";
+}
+.scmp-icon-minus1:before {
+  content: "\2a";
+}
+.scmp-icon-check-mark-2:before {
+  content: "\2c";
+}
+.scmp-icon-call-phone:before {
+  content: "\2d";
+}
+.scmp-icon-undo:before {
+  content: "\2e";
+}
+.scmp-icon-wrench:before {
+  content: "\e3";
+}
+.scmp-icon-youtube-play:before {
+  content: "\3a";
+}
+.scmp-icon-asterisk:before {
+  content: "\e0";
+}
+.scmp-icon-poll:before {
+  content: "\3c";
+}
+.scmp-icon-blog:before {
+  content: "\e1";
+}
+.scmp-icon-photo:before {
+  content: "\3d";
+}
+.scmp-icon-star:before {
+  content: "\3f";
+}
+.scmp-icon-bar-chart:before {
+  content: "\4b";
+}
+.scmp-icon-menu:before {
+  content: "\51";
+}
+.scmp-icon-dot:before {
+  content: "\50";
+}
+.scmp-icon-lists:before {
+  content: "\2b";
+}
+.scmp-icon-bell:before {
+  content: "\40";
+}
+.scmp-icon-bell-two:before {
+  content: "\5b";
+}
+.scmp-icon-like-filled:before {
+  content: "\5d";
+}
+.scmp-icon-news:before {
+  content: "\5e";
+}
+.scmp-icon-cutlery:before {
+  content: "\5f";
+}
+.scmp-icon-location:before {
+  content: "\60";
+}
+.scmp-icon-search1:before {
+  content: "\7b";
+}
+.scmp-icon-reddit:before {
+  content: "\7c";
+}
+.scmp-icon-flash:before {
+  content: "\7d";
+}
+.scmp-icon-ptint:before {
+  content: "\5c";
+}
+.scmp-icon-link:before {
+  content: "\7e";
+}
+.scmp-icon-quote:before {
+  content: "\53";
+}
+.scmp-icon-whatsapp-1:before {
+  content: "\2f";
+}
+.scmp-icon-personalise:before {
+  content: "\3b";
+}
+.scmp-icon-enews:before {
+  content: "\3e";
+}
+
+
+@font-face {
+  font-family: "scmp-weather-icons";
+  src:url("../scmp-weather-icons/scmp-weather-icons.eot");
+  src:url("../scmp-weather-icons/scmp-weather-icons.eot?#iefix") format("embedded-opentype"),
+    url("../scmp-weather-icons/scmp-weather-icons.woff") format("woff"),
+    url('../scmp-weather-icons/scmp-weather-icons.woff2') format('woff2'),
+    url("../scmp-weather-icons/scmp-weather-icons.ttf") format("truetype"),
+    url("../scmp-weather-icons/scmp-weather-icons.svg#scmp-weather-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "scmp-weather-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: hidden;
+}
+
+[class^="scmp-weather-icon-"]:before,
+[class*=" scmp-weather-icon-"]:before {
+  font-family: "scmp-weather-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: hidden;
+}
+
+.wf-scmpweathericons-n4-active [class^="scmp-weather-icon-"]:before,
+.wf-scmpweathericons-n4-active [class*=" scmp-weather-icon-"]:before,
+.wf-scmpweathericons-n4-active [data-icon]:before {
+  visibility: visible;
+}
+
+
+.scmp-weather-icon-2:before {
+  content: "a";
+}
+.scmp-weather-icon-3:before {
+  content: "b";
+}
+.scmp-weather-icon-4:before {
+  content: "c";
+}
+.scmp-weather-icon-5:before {
+  content: "d";
+}
+.scmp-weather-icon-6:before {
+  content: "e";
+}
+.scmp-weather-icon-7:before {
+  content: "f";
+}
+.scmp-weather-icon-8:before {
+  content: "g";
+}
+.scmp-weather-icon-9:before {
+  content: "h";
+}
+.scmp-weather-icon-10:before {
+  content: "i";
+}
+.scmp-weather-icon-11:before {
+  content: "j";
+}
+.scmp-weather-icon-12:before {
+  content: "k";
+}
+.scmp-weather-icon-13:before {
+  content: "l";
+}
+.scmp-weather-icon-14:before {
+  content: "m";
+}
+.scmp-weather-icon-15:before {
+  content: "n";
+}
+.scmp-weather-icon-16:before {
+  content: "o";
+}
+.scmp-weather-icon-17:before {
+  content: "p";
+}
+.scmp-weather-icon-18:before {
+  content: "q";
+}
+.scmp-weather-icon-19:before {
+  content: "r";
+}
+.scmp-weather-icon-20:before {
+  content: "s";
+}
+.scmp-weather-icon-21:before {
+  content: "t";
+}
+.scmp-weather-icon-22:before {
+  content: "u";
+}
+.scmp-weather-icon-23:before {
+  content: "v";
+}
+.scmp-weather-icon-24:before {
+  content: "w";
+}
+.scmp-weather-icon-25:before {
+  content: "x";
+}
+.scmp-weather-icon-26:before {
+  content: "y";
+}
+.scmp-weather-icon-27:before {
+  content: "z";
+}
+.scmp-weather-icon-28:before {
+  content: "A";
+}
+.scmp-weather-icon-29:before {
+  content: "B";
+}
+.scmp-weather-icon-30:before {
+  content: "C";
+}
+.scmp-weather-icon-31:before {
+  content: "D";
+}
+.scmp-weather-icon-32:before {
+  content: "E";
+}
+.scmp-weather-icon-33:before {
+  content: "F";
+}
+.scmp-weather-icon-34:before {
+  content: "G";
+}
+.scmp-weather-icon-signal-t1:before {
+  content: "H";
+}
+.scmp-weather-icon-signal-t3:before {
+  content: "I";
+}
+.scmp-weather-icon-signal-t8-ne:before {
+  content: "J";
+}
+.scmp-weather-icon-signal-t8-nw:before {
+  content: "K";
+}
+.scmp-weather-icon-signal-t8-se:before {
+  content: "L";
+}
+.scmp-weather-icon-signal-t8-sw:before {
+  content: "M";
+}
+.scmp-weather-icon-signal-t9:before {
+  content: "N";
+}
+.scmp-weather-icon-signal-t10:before {
+  content: "O";
+}
+.scmp-weather-icon-warning-cold:before {
+  content: "P";
+  color: #80B1C9;
+}
+.scmp-weather-icon-warning-fire:before {
+  content: "Q";
+}
+.scmp-weather-icon-warning-frost:before {
+  content: "R";
+}
+.scmp-weather-icon-warning-landslip:before {
+  content: "S";
+}
+.scmp-weather-icon-warning-ntfl:before {
+  content: "T";
+}
+.scmp-weather-icon-warning-rain:before {
+  content: "U";
+}
+.scmp-weather-icon-warning-sms:before {
+  content: "V";
+}
+.scmp-weather-icon-warning-ts:before {
+  content: "W";
+}
+.scmp-weather-icon-warning-tsunami:before {
+  content: "X";
+}
+.scmp-weather-icon-warning-vhot:before {
+  content: "Y";
+}
+.scmp-weather-icon-1:before {
+  content: "Z";
+}
+
+.scmp-weather-icon-warning-rain.black:before {
+  color: #000;
+}
+.scmp-weather-icon-warning-rain.amber:before,
+.scmp-weather-icon-warning-fire.yellow:before {
+  color: #E2B44B;
+}
+.scmp-weather-icon-warning-rain.red:before,
+.scmp-weather-icon-warning-fire.red:before,
+.scmp-weather-icon-warning-vhot:before {
+  color: #ff3333;
+}
