@@ -1,83 +1,121 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 0px;
+    width: auto;
+}
+
 .header_section {
-    background-color: #000;
+    grid-column: 1/-1;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+.title_page {
+    padding: 10px 0 0px 0;
+}
+#sub_title {
+    margin: 5px 0 20px 0;
+}
+#header_image {
+    width: 100%;
+    border-radius: 30%;
+}
+.img_section {
+    
+    height: auto;
+    justify-content: center;
+    padding: auto;
+}
+.early_years {
+    background-color: #ffffff;
+}
+.early_years_img, .body_work_img {
     width: 100%;
 }
-#header_image{
+.text_section {
     width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Alegreya', sans-serif;
+    text-align: center;
+    padding: 10px 0 30px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
-.img_section{
-    display: inline-block;
-    width: 50%;
-    height:100%;
-    vertical-align: top;
+#body_work_article, #body_work_aside {
+    background-color: #000000;
+    color: #ffffff;
+}
+.timeline {
+    grid-column: 1/-1;
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 100%;
+    font-family: 'Alegreya', sans-serif;
+}
+#timeline_title {
+    vertical-align: text-top;
+    margin: -70px;
     
 }
-
-.text_section{
-    display: inline-block;
-    width: 49%;
+.timeline:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
     height: 100%;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-
+    background: #c5c5c5;
 }
-
-.title_page {
-    text-align: center;
-    color: #fff;
-}
-
 .section_title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Alegreya', sans-serif;
+    padding: 20px 0 20px 0;
     text-align: center;
 }
-
-.early_years, .timeline {
+.timeline_list {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
     width: 100%;
-    background-color: #fff;
-    height:800px;
-    color: #000;
-    font-size: 0%;
+    font-family: 'Alegreya', sans-serif;
+    list-style: none;
 }
-.early_years_img {
-    width: 100%;
-    height: auto;
+.timeline ul li{
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
 }
-
-.body_work {
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    height: 1000px;
-}
-
-.body_work_img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-   
-}
-
-#body_work_aside {
-    height: 100%;
-   
-}
-p {
-    font-size: 120%;
-    line-height: 150%;
-    padding: 2%;
-    text-align: justify;
-}
-article {
+.timeline ul li:nth-child(odd) {
     float: left;
-    margin: 0 auto;
+    text-align: right;
+    clear: both;
 }
-
-aside {
+.timeline ul li:nth-child(even) {
     float: right;
-    margin: 0 auto;
+    text-align: left;
+    clear: both;
+}
+.content {
+    padding-bottom: 20px;
+}
+.footer {
+    text-align: center;
+    color: #000000;
+    grid-column: 1/-1;
 }
