@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 * {
     margin: 0;
     padding: 0;
@@ -21,9 +22,15 @@
 }
 .title_page {
     padding: 10px 0 0px 0;
+    font-family: 'Alegreya', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 #sub_title {
     margin: 5px 0 20px 0;
+    font-family: Special Elite, 'Comic Sans MS';
+    
+    
 }
 #header_image {
     width: 100%;
